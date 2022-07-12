@@ -263,10 +263,9 @@ body {
     color: white;
   } */
 
-  /* .card ul{
-    font-weight: 600;
-    padding-left: 0;
-  } */
+  .card ul{
+      padding-left: 0;
+  }
 
 .card a {
     transition: all 0.3s;
@@ -274,9 +273,9 @@ body {
     }
 
 .card a:hover {
-    background-color: rgb(19, 161, 0);
+    background-color: white;
     font-weight: bold;
-    color: white;
+    color: black;
     transform: scale(1.1);
     border: solid white 2px;
 }
@@ -354,6 +353,12 @@ input, select, textarea, button {
 }
 
 
+@media (max-width: 1024px) {
+    .desplegable{
+        font-size: small;
+    }
+}
+
 @media (max-width: 768px) {
     body {
         font-size: 1.2rem;
@@ -410,6 +415,9 @@ input, select, textarea, button {
         max-width: 240px;
         height: auto;
     }
+    .desplegable{
+        font-size: medium;
+    }
 }
 
 
@@ -426,5 +434,7 @@ form{
             max-width: 110px;
             height: auto;
         }
-
+        .desplegable{
+            font-size: x-small;
+        }
 }
