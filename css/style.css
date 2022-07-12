@@ -171,7 +171,8 @@ body {
 } */
 
 .carousel-item img{
-    height: 600px;
+    width: 20%;
+    height: 30%;
 }
 
 .galeria{
