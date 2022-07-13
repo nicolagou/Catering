@@ -1,0 +1,26 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Dosis";
+    src: url(../font/Dosis-Regular.ttf);
+    font-size: 1rem;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-areas:
+        "header      header      header"
+        "main        main        main"
+        "footer      footer      footer"
+    ;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 220px 2fr 200px;
+}

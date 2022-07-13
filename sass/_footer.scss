@@ -1,0 +1,49 @@
+.form label {
+    font-weight: bold;
+}
+
+.footer {
+    background-image: linear-gradient(rgb(32, 32, 32),rgb(66, 66, 66));
+    color: white;
+    padding: 30px 200px;
+    grid-area: footer;
+}
+
+.footer__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.footer__content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content__redes {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+.footer__content img {
+    width: 25px;
+    height: 25px;
+    filter: invert(100%);
+}
+
+.content__redes li {
+    margin: 10px 0px;
+    text-align: left;
+}
+
+.content__logo {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.content__logo img {
+    width: 7rem;
+    height: auto;
+}
