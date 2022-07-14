@@ -1,3 +1,12 @@
+.main {
+    background-image: url(../multimedia/fondocard.jpg);
+     background-size: cover;
+    color: white;
+    /* font-size: 1rem;
+    padding: 30px 200px;
+    display: flex; */
+    /* grid-area: main; */
+}
 
 /* .main__content {
     max-width: 1200px;
@@ -198,4 +207,8 @@ label {
  
 input, select, textarea, button {
     grid-column: 2 / 3;
+}
+
+.form label {
+    font-weight: bold;
 }

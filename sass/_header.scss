@@ -1,39 +1,45 @@
-
-
 .header {
-    background-image: linear-gradient(rgb(66, 66, 66),rgb(32, 32, 32));
+    background-image: linear-gradient(rgb(66, 66, 66), rgb(32, 32, 32));
     padding: 30px 0px;
     /* position: relative; */
     grid-area: header;
-}
 
-.header a {
-    color: white;
-    text-transform: uppercase;
-    transition: font-weight color scale 0.3s;
-}
+    a {
+        color: black;
+        text-transform: uppercase;
+        transition: font-weight color scale 0.3s;
 
-.header a:hover{
-    color: rgb(155, 148, 135);
-    font-weight: bold;
-    transform: scale(1.1);
+        &:hover {
+            color: rgb(155, 148, 135);
+            font-weight: bold;
+            transform: scale(1.1);
+        }
     }
+}
+
+
+.navbar {
+    a img {
+        width: 7.5rem;
+        height: 7.5rem;
+        filter: invert(100%);
+
+        &-toggler {
+            filter: invert(100%);
+        }
+    }
+}
 
 /* .header__content {
     display: flex;
     justify-content: space-between;
     align-items: center; */
-    /* max-width: 1200px;
+/* max-width: 1200px;
     margin: 0 auto; */
-    /* position: sticky;
+/* position: sticky;
 
 } */
 
-.navbar a img {
-    width: 7.5rem;
-    height: 7.5rem;
-    filter: invert(100%);
-}
 
 /* .header__content span {
     display: none;
@@ -62,17 +68,3 @@
     text-decoration: none;
 } */
 
-.navbar-toggler {
-    filter: invert(100%);
-}
-
-
-.main {
-    background-image: url(../multimedia/fondocard.jpg);
-     background-size: cover;
-    color: white;
-    /* font-size: 1rem;
-    padding: 30px 200px;
-    display: flex; */
-    /* grid-area: main; */
-}
