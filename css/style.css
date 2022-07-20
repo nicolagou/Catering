@@ -21,16 +21,21 @@ body {
   padding: 30px 0px;
   /* position: relative; */
   grid-area: header; }
+  .header a {
+    color: black;
+    text-transform: uppercase;
+    transition: font-weight color scale 0.3s; }
+    .header a:hover {
+      color: #9b9487;
+      font-weight: bold;
+      transform: scale(1.1); }
 
-.header a {
-  color: white;
-  text-transform: uppercase;
-  transition: font-weight color scale 0.3s; }
-
-.header a:hover {
-  color: #9b9487;
-  font-weight: bold;
-  transform: scale(1.1); }
+.navbar a img {
+  width: 7.5rem;
+  height: 7.5rem;
+  filter: invert(100%); }
+  .navbar a img-toggler {
+    filter: invert(100%); }
 
 /* .header__content {
     display: flex;
@@ -41,11 +46,6 @@ body {
 /* position: sticky;
 
 } */
-.navbar a img {
-  width: 7.5rem;
-  height: 7.5rem;
-  filter: invert(100%); }
-
 /* .header__content span {
     display: none;
 } */
@@ -71,9 +71,6 @@ body {
     color: white;
     text-decoration: none;
 } */
-.navbar-toggler {
-  filter: invert(100%); }
-
 .main {
   background-image: url(../multimedia/fondocard.jpg);
   background-size: cover;
@@ -88,7 +85,8 @@ body {
     margin: 0 auto;
 
 } */
-.main__content h1, h2 {
+.main__content h1,
+h2 {
   text-align: center;
   margin-bottom: 3rem; }
 
@@ -132,6 +130,42 @@ body {
   background-image: url(../multimedia/fondo-blanco.jpg);
   background-size: inherit;
   color: black; }
+
+.btn-index {
+  display: flex;
+  justify-content: center;
+  gap: 10px; }
+  .btn-index1 a {
+    transition: all 0.3s; }
+    .btn-index1 a:hover {
+      border: 2px solid white;
+      background-color: black;
+      color: white;
+      transform: scale(1.1); }
+  .btn-index2 a {
+    transition: all 0.3s; }
+    .btn-index2 a:hover {
+      border: 2px solid black;
+      background-color: white;
+      color: black;
+      transform: scale(1.1); }
+
+.btn-base, .btn-nosotros, .btn-elchef {
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5); }
+
+.btn-nosotros {
+  border: 2px solid black;
+  background-color: white;
+  color: black; }
+
+.btn-elchef {
+  border: 2px solid white;
+  background-color: black;
+  color: white; }
 
 /* .carousel-inner img {
     width: 100%;
@@ -241,7 +275,10 @@ label {
   grid-column: 1 / 2;
   font-weight: 600; }
 
-input, select, textarea, button {
+input,
+select,
+textarea,
+button {
   grid-column: 2 / 3; }
 
 .form label {
