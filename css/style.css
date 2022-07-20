@@ -22,7 +22,7 @@ body {
   /* position: relative; */
   grid-area: header; }
   .header a {
-    color: black;
+    color: white;
     text-transform: uppercase;
     transition: font-weight color scale 0.3s; }
     .header a:hover {
@@ -139,7 +139,7 @@ h2 {
     transition: all 0.3s; }
     .btn-index1 a:hover {
       border: 2px solid white;
-      background-color: black;
+      background-color: #202020;
       color: white;
       transform: scale(1.1); }
   .btn-index2 a {
@@ -164,7 +164,7 @@ h2 {
 
 .btn-elchef {
   border: 2px solid white;
-  background-color: black;
+  background-color: #202020;
   color: white; }
 
 /* .carousel-inner img {

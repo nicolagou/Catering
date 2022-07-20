@@ -83,7 +83,7 @@ h2 {
 
         &:hover {
             border: 2px solid white;
-            background-color: black;
+            background-color: rgb(32, 32, 32);
             color: white;
             transform: scale(1.1);
         }
@@ -119,7 +119,7 @@ h2 {
 .btn-elchef {
     @extend .btn-base;
     border: 2px solid white;
-    background-color: black;
+    background-color: rgb(32, 32, 32);
     color: white;
 }
 
@@ -142,6 +142,9 @@ h2 {
 .effect {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
 }
+
+
+// GALERIA DE IMAGENES
 
 .galeria {
     justify-items: center;
@@ -170,6 +173,8 @@ h2 {
     gap: 15px;
 
 }
+
+// CARD DE PRODUCTOS
 
 .card {
     background-image: url(../multimedia/fondocard.jpg);
@@ -251,6 +256,7 @@ h2 {
     font-weight: bold;
 } */
 
+// FORMULARIO DE CONTACTO
 
 form {
     display: grid;
