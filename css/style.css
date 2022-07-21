@@ -321,6 +321,15 @@ button {
   width: 7rem;
   height: auto; }
 
+.link-instagram {
+  color: #ff4800; }
+
+.link-facebook {
+  color: #6161a0; }
+
+.link-email {
+  color: white; }
+
 @media (max-width: 1024px) {
   .desplegable {
     font-size: small; } }

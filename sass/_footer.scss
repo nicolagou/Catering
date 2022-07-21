@@ -1,6 +1,5 @@
-
 .footer {
-    background-image: linear-gradient(rgb(32, 32, 32),rgb(66, 66, 66));
+    background-image: linear-gradient(rgb(32, 32, 32), rgb(66, 66, 66));
     color: white;
     padding: 30px 200px;
     grid-area: footer;
@@ -43,4 +42,19 @@
 .content__logo img {
     width: 7rem;
     height: auto;
+}
+
+// MAPA
+
+$redesSociales: (
+    instagram: (rgb(255, 72, 0)),
+    facebook: (rgb(97, 97, 160)),
+    email: (white),
+);
+
+@each $nombre,
+$color in $redesSociales {
+    .link-#{$nombre} {
+        color: $color;
+            }
 }
